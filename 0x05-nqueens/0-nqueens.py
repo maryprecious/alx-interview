@@ -26,8 +26,8 @@ def queens(n, i=0, a=[], b=[], c=[]):
                yield from queens(n, i + 1, a + [j], b + [i + j], c + [i - j])
 
 
-     else:
-         yield a
+     
+         
 
 
 
